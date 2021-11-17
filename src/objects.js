@@ -196,6 +196,7 @@ SpriteMorph.prototype.bubbleCorner = 10;
 SpriteMorph.prototype.bubbleBorder = 3;
 SpriteMorph.prototype.bubbleBorderColor = new Color(190, 190, 190);
 SpriteMorph.prototype.bubbleMaxTextWidth = 130;
+SpriteMorph.prototype.foo = function (bar) { console.log(bar); }; StageMorph.prototype.foo = SpriteMorph.prototype.foo;
 
 SpriteMorph.prototype.initBlocks = function () {
     SpriteMorph.prototype.blocks = {
