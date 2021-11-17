@@ -200,6 +200,15 @@ SpriteMorph.prototype.initBlocks = function () {
     SpriteMorph.prototype.blocks = {
 
         // Motion
+	foo: {
+	  dev: true,
+	  only: SpriteMorph,
+	  type: 'command',
+	  category: 'motion',
+	  spec: 'do something funny with %s',
+	  defaults: 'Snap',
+	}
+
         forward: {
             only: SpriteMorph,
             type: 'command',
